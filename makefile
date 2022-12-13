@@ -1,13 +1,13 @@
 CC=gcc
 
-main.out: main.c
-  gcc -c -g ./main|tee main.out
+main.out: main
+	valgrind --leak-check=full ./main | tee main.out
   
 main: main.o get_student_id.o
-  gcc main.o get_student_id.o -o main
+	gcc main.o get_student_id.o -o main
   
 main.o: main.c
-  gcc -c main.c
+	gcc -c main.c
   
 get_student_id.o: get_student_id.c
-  gcc -c get_student_id.c
+	gcc -c get_student_id.c
