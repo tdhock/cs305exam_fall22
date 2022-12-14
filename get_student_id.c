@@ -1,3 +1,5 @@
+# replaced 3331212 with my (Haley Berger) student ID
+
 int get_student_id(void){
-  return 3331212;
+  return 6213455;
 }
