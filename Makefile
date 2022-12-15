@@ -3,8 +3,10 @@ DEBUG = -g
 CFLAGS = -Wall -c $(DEBUG)
 LFLAGS = -Wall $(DEBUG)
 
-main.out : main.o get_student_id.o
-	$(CC) $(LFLAGS) get_student_id.o main.o -o main.out
+main.out : main.o
+
+main: main.o get_student_id.o
+	$(CC) $(LFLAGS) main.o get_student_id.o -o main
 
 main.o : main.c
 	$(CC) $(CFLAGS) main.c
