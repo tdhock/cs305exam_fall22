@@ -14,3 +14,4 @@ get_student_id.o: get_student_id.c get_student_id.h
   
 clean:
   rm *.o main
+  
