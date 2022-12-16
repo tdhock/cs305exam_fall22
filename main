@@ -1,2 +1,0 @@
-./main.o cc -o main
-./get_student_id.o cc -o main
