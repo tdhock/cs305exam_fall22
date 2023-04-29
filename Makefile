@@ -10,4 +10,4 @@ main.o: main.c
 	$(CC) -c main.c
   
 get_student_id.o: get_student_id.c
-  $(CC) -c get_student_id.c
+	$(CC) -c get_student_id.c
