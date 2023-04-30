@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-int get_student_id(void){
-  printf("ra2327@nau.edu");
-  return 1;
+const char* get_student_id() {
+  char *id = "ra2327@nau.edu"
+  return id;
 }
