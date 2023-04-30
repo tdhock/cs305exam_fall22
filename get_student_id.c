@@ -1,3 +1,4 @@
 int get_student_id(void){
-  return "ra2327@nau.edu";
+  printf("ra2327@nau.edu"); 
+  return;
 }
