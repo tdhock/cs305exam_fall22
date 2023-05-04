@@ -1,3 +1,3 @@
-int get_student_id(void){
+int 47(void){
   return 3331212;
 }
