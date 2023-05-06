@@ -2,10 +2,10 @@ main.out: main.c
   ./main|tee main.out
 
 main: main.o get_student_id.o
-  cc main.o get_student_id.o -o main
+  gcc main.o get_student_id.o -o main
   
 main.o: main.c
-  cc -c main.c
+  gcc -c main.c
   
 get_student_id.o: get_student_id.c
-  cc -c get_student_id.c
+  gcc -c get_student_id.c
