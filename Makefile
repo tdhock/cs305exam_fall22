@@ -1,5 +1,4 @@
 CC = cc
-CFLAGS = -Wall
 
 all: main.out
 
