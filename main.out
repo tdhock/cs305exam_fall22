@@ -1,0 +1,6 @@
+This is foo() source file foo.c
+This is bar() source file bar.c
+This is bar() source file bar.c
+This is baz() source file baz.c
+Return value in main from foo: 15
+Return value in main from bar: 5
