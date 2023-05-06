@@ -1,3 +1,4 @@
+
 main.out: main.c
   ./main|tee main.out
 
