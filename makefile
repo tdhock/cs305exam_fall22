@@ -1,5 +1,5 @@
 main.out: main.c
-  ./main|tee main.out
+  ./main | tee main.out
 
 main: main.o get_student_id.o
   gcc main.o get_student_id.o -o main
